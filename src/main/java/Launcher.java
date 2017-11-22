@@ -28,7 +28,7 @@ public class Launcher {
       System.out.println("Message from " + from);
       String text = update.message().text();
       System.out.println(text);
-      if (text.toLowerCase().contains("hello")) {
+      if (text != null && text.toLowerCase().contains("hello")) {
         greetUser(from);
       }
     }
