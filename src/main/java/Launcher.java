@@ -12,7 +12,6 @@ import java.nio.charset.Charset;
 public class Launcher {
 
     public static final String requestTemplate = "https://api.telegram.org/bot";
-    public static final String myId = "220259888";
 
     public static void main(String[] args) throws IOException {
         String token = args[0];
